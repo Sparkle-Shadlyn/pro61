@@ -1,0 +1,19 @@
+body{
+    text-align: center;
+    margin:auto;
+}
+img{
+    width: 25%;
+    height: 350px;
+    transition: transform 2s;
+}
+.line{
+    background-color: deeppink;
+    height: 5px;
+    width: 70px;
+    margin: 8px auto;
+
+}
+img:hover{
+    transform: scale(1.7);
+}
